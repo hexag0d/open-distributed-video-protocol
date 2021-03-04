@@ -13,7 +13,7 @@ High level implementation requirements:
 
   1. Each participant should maintain a JSON object in a (to be determined) standardized location on the remote host IE { https://XXXX.com/odvp.json }
   2. Client applications will make http request to user selected platforms and retrieve ODVP json object from each platform
-  3. Each ODVP json object will be parsed into a standardized format, which should include parameters such as: authentication requirements, video resolution    requirements, audio/video bitrate requirements, supported formats, supported codecs, supported formats, supported metadata
+  3. Each ODVP json object will be parsed into a standardized format, which should include parameters such as: authentication requirements, video resolution    requirements, audio/video bitrate requirements, supported formats, supported codecs, supported metadata
   4. Client applications should be able to authenticate the user into each system and also process the video then POST the video into each available format for each video hosting platform
   5. Server applications need to ensure their endpoints accept parameters and POST requests specified by the ODVP json object
 
